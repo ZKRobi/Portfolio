@@ -21,6 +21,10 @@ body {
     height: 100%;
 }
 
+.carousel-caption {
+    text-align: left;
+}
+
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
