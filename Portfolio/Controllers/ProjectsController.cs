@@ -13,5 +13,10 @@ namespace Portfolio.Controllers
         {
             return View();
         }
+
+        public ActionResult Soulmyst()
+        {
+            return View();
+        }
     }
 }
