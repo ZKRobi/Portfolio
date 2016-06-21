@@ -6,30 +6,24 @@ using System.Web.Mvc;
 
 namespace Portfolio.Controllers
 {
-    public class ProjectsController : Controller
+    public class AboutController : Controller
     {
-        // GET: Projects
-        public ActionResult Index()
+        public ActionResult Skills()
         {
             return View();
         }
 
-        public ActionResult Soulmyst()
+        public ActionResult Recommendations()
         {
             return View();
         }
 
-        public ActionResult TapBand()
+        public ActionResult Hobbies()
         {
             return View();
         }
 
-        public ActionResult SpaceCombat()
-        {
-            return View();
-        }
-
-        public ActionResult Business()
+        public ActionResult Contact()
         {
             return View();
         }

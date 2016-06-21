@@ -26,11 +26,36 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Projects</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About myself <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                @Html.ActionLink("Skills", "Skills", "About")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Recommendations", "Recommendations", "About")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Hobbies", "Hobbies", "About")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Contact", "Contact", "About")
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Projects <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                @Html.ActionLink("Soulmyst", "Soulmyst", "Projects")
+                                @Html.ActionLink("Tap Band", "TapBand", "Projects")
+                                @Html.ActionLink("Space Combat", "SpaceCombat", "Projects")
+
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        @Html.ActionLink("Business Projects", "Business", "Projects")
                     </li>
                 </ul>
             </div>
