@@ -148,6 +148,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Files\Robert Zoldi-Kovacs CV.pdf" />
     <None Include="Properties\PublishProfiles\zkrobi.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -188,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Files\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
